@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background: url(./pexels-julie-aagaard-1426718.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height: 250px;
+    width: 60%;
+    border-radius: 30px;
+    background-color: #fff;
+    text-align: center;    
+    box-shadow: 0 0 3px;
+}
+#timer{
+    padding: 35px;
+    width: 100%;
+    font-size: 72px;
+    text-align: center;
+    margin: 0px auto;
+}
+.buttons{
+    text-align: center;
+}
+button{
+    margin: 0 10px;
+    border: none;
+}
+button i{
+    font-size: 2rem;
+    padding: 10px;
+    color: #fff;
+    width: 50px;
+}
+#play{
+    background-color: green;
+}
+#pause{
+background-color: orange;
+}
+#reset{
+    background-color: red;
+}
